@@ -1,0 +1,22 @@
+main{
+    background-color: $primary-background;
+    min-height: 90vh;
+
+    .container{
+
+        @include flexy($dir:column);
+        margin: 0 10%;
+        padding: 50px 0 0;
+
+        .pic-container{
+            background-color: white;
+            @include flexy($just:center);
+            padding: 20px;
+        }
+
+        *{
+            margin: 10px 0;
+            font-family: $font-stack-primary;
+        }
+    }
+}

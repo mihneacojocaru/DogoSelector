@@ -1,0 +1,28 @@
+$breakpoints: (
+  "sm": 100px,
+  "md": 768px,
+  "lg": 1024px,
+);
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+$font-stack-primary: "Montserrat", sans-serif;
+$element-width: 90%;  
+$max-element-width: 300px;
+//Colors
+
+$primary-background: #eff2f3;
+$secondary-background: #d7dcdd;
+$white-background: #fff;
+
+$font-color-1: #aeb6b8;
+$font-color-2: #7b868a;
+$font-color-3: #525e61;
+$font-color-4: #3b4446;
+$font-color-5: #166a8f;
+$font-color-6: #2facb2;
+$font-color-7: #7b868a;
+$font-color-8: #2dbe60;
+$font-color-9: gold;
+
+
