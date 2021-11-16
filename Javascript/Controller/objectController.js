@@ -6,7 +6,8 @@ class ControllerDogApi{
     }
 
     allBreeds = async () => {
-        const link = "https://dog.ceo/api/breeds/list/all";
+        try {
+            const link = "https://dog.ceo/api/breeds/list/all";
 
         let data = await fetch(link);
 
@@ -16,6 +17,9 @@ class ControllerDogApi{
 
         for(const e in d){
             this.list.push(e);
+        }
+        } catch (error) {
+            console.log(error)
         }
     } 
 

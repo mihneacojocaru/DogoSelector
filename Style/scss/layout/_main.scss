@@ -14,9 +14,29 @@ main{
             padding: 20px;
         }
 
+        img{
+            max-width: 200px;
+        }
+
         *{
             margin: 10px 0;
             font-family: $font-stack-primary;
+        }
+    }
+}
+
+@include mq("md"){
+    .container{
+        img{
+            max-width: 500px !important;
+        }
+    }
+}
+
+@include mq("lg"){
+    .container{
+        img{
+            max-width: 800px !important;
         }
     }
 }

@@ -380,9 +380,23 @@ main .container .pic-container {
   justify-content: center;
   padding: 20px;
 }
+main .container img {
+  max-width: 200px;
+}
 main .container * {
   margin: 10px 0;
   font-family: "Montserrat", sans-serif;
+}
+
+@media (min-width: 768px) {
+  .container img {
+    max-width: 500px !important;
+  }
+}
+@media (min-width: 1024px) {
+  .container img {
+    max-width: 800px !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
