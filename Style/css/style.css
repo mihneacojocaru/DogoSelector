@@ -387,6 +387,19 @@ main .container * {
   margin: 10px 0;
   font-family: "Montserrat", sans-serif;
 }
+main .container button {
+  background-color: gold;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  color: "Montserrat", sans-serif;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px;
+}
+main .container button:active {
+  background-color: #3b4446;
+  color: white;
+}
 
 @media (min-width: 768px) {
   .container img {

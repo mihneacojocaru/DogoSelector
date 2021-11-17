@@ -22,6 +22,21 @@ main{
             margin: 10px 0;
             font-family: $font-stack-primary;
         }
+
+        button{
+            background-color: $font-color-9;
+            border: none;
+            border-radius: 5px;
+            padding: 5px;
+            color: $font-stack-primary;
+            cursor: pointer;
+            box-shadow: 1px 1px 5px;
+
+            &:active{
+                background-color: $font-color-4;
+                color: white;
+            }
+        }
     }
 }
 
